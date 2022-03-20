@@ -1,0 +1,77 @@
+baseURL = 'https://www.toesmasher.se'
+languageCode = 'en-us'
+title = 'Toesmasher'
+
+theme = 'hello-friend-ng'
+paginate =220
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+archetypesDir = "archetypes"
+conentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "public"
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmojoi = true
+
+[author]
+  name = "Toesmasher"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  project = "projects"
+
+[permalinks]
+  projects = "projects/:year/:month/:title"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  homeSubtitle = "Coding, hacking and playing around"
+  disableReadOtherPosts = false
+  enableSharingButtons = true
+
+  description = "The various things I do"
+  keywords = "homepage, blog, DM"
+  images = [""]
+
+[params.logo]
+  logoMark = ">"
+  logoText = "cd /home/toesmasher"
+
+[params.footer]
+  trademark = true
+  rss = false
+  copyright = false
+  author = true
+
+  topText = []
+  bottomText = [
+  ]
+
+#[menu]
+#  [[menu.Main]]
+#    identifier = "projects"
+#    name       = "Projects"
+#    url        = "/projects"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/toesmasher"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/niklas-berggren-a4339b19"
