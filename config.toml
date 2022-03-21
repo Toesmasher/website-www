@@ -3,16 +3,10 @@ languageCode = 'en-us'
 title = 'Toesmasher'
 
 theme = 'hello-friend-ng'
-paginate =220
+paginate = 20
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-
-archetypesDir = "archetypes"
-conentDir = "content"
-dataDir = "data"
-layoutDir = "layouts"
-publishDir = "public"
 
 buildDrafts = false
 buildFuture = false
@@ -21,7 +15,7 @@ canonifyURLs = true
 
 enableRobotsTXT = true
 enableGitInfo = false
-enableEmojoi = true
+enableEmoji = true
 
 [author]
   name = "Toesmasher"
@@ -32,6 +26,7 @@ enableEmojoi = true
   project = "projects"
 
 [permalinks]
+  blog = "blog/:year/:month/:title"
   projects = "projects/:year/:month/:title"
 
 [params]
@@ -40,7 +35,7 @@ enableEmojoi = true
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  homeSubtitle = "Coding, hacking and playing around"
+  homeSubtitle = "Coding and hacking, puzzling and playing"
   disableReadOtherPosts = false
   enableSharingButtons = true
 
@@ -48,9 +43,12 @@ enableEmojoi = true
   keywords = "homepage, blog, DM"
   images = [""]
 
+[params.portrait]
+  path = "images/Toesmasher.png"
+
 [params.logo]
-  logoMark = ">"
-  logoText = "cd /home/toesmasher"
+  logoMark = "$"
+  logoText = " "
 
 [params.footer]
   trademark = true
@@ -62,11 +60,16 @@ enableEmojoi = true
   bottomText = [
   ]
 
-#[menu]
-#  [[menu.Main]]
-#    identifier = "projects"
-#    name       = "Projects"
-#    url        = "/projects"
+[menu]
+  [[menu.Main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/blog"
+
+  [[menu.Main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
 
 [[params.social]]
   name = "github"
