@@ -1,11 +1,12 @@
 baseURL = 'https://www.toesmasher.se'
-languageCode = 'en-us'
+languageCode = 'en'
 title = 'Toesmasher'
 
-theme = 'hello-friend-ng'
+theme = 'hugo-coder'
 paginate = 20
 
 PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle = "monokai"
 
 buildDrafts = false
@@ -30,51 +31,35 @@ enableEmoji = true
   projects = "projects/:year/:month/:title"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-
-  homeSubtitle = "Coding and hacking, puzzling and playing"
-  disableReadOtherPosts = false
-  enableSharingButtons = true
-
+  colorScheme = "auto"
+  hideColorSchemeToggle = true
+  dateFormat = "January 2, 2006"
   description = "The various things I do"
-  keywords = "homepage, blog, DM"
-  images = [""]
+  info = "The various things I do"
+  keywords = "Blog, BSD, Development, DM, Dungeons & Dragons, Embedded, FreeBSD, Linux, Unix"
+  avatarURL = "images/Toesmasher.png"
 
-[params.portrait]
-  path = "images/Toesmasher.png"
+[[languages.en.menu.main]]
+  name = "CV"
+  weight = 1
+  url = "/cv"
 
-[params.logo]
-  logoMark = "$"
-  logoText = " "
+[[languages.en.menu.main]]
+  name = "Blog"
+  weight = 2
+  url = "/blog"
 
-[params.footer]
-  trademark = true
-  rss = false
-  copyright = false
-  author = true
-
-  topText = []
-  bottomText = [
-  ]
-
-[menu]
-  [[menu.Main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/blog"
-
-  [[menu.Main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/projects"
+[[languages.en.menu.main]]
+  name = "Projects"
+  weight = 3
+  url = "/projects"
 
 [[params.social]]
   name = "github"
+  icon = "fa fa-2x fa-github"
   url = "https://github.com/toesmasher"
 
 [[params.social]]
   name = "linkedin"
+  icon = "fa fa-2x fa-linkedin"
   url = "https://www.linkedin.com/in/niklas-berggren-a4339b19"
