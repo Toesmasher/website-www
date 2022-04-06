@@ -1,6 +1,6 @@
-baseURL = 'https://www.toesmasher.se'
+baseURL = ''
 languageCode = 'en'
-title = 'Toesmasher'
+title = 'Toesmasher.se'
 
 theme = 'hugo-coder'
 paginate = 20
@@ -19,7 +19,7 @@ enableGitInfo = false
 enableEmoji = true
 
 [author]
-  name = "Toesmasher"
+  name = "Toesmasher.se"
 
 [taxonomies]
   tag = "tags"
@@ -28,14 +28,14 @@ enableEmoji = true
 
 [permalinks]
   blog = "blog/:year/:month/:title"
-  projects = "projects/:year/:month/:title"
+#  projects = "projects/:year/:month/:title"
 
 [params]
   colorScheme = "auto"
   hideColorSchemeToggle = true
   dateFormat = "January 2, 2006"
   description = "The various things I do"
-  info = "The various things I do"
+  info = "Coding and hacking, playing and puzzling"
   keywords = "Blog, BSD, Development, DM, Dungeons & Dragons, Embedded, FreeBSD, Linux, Unix"
   avatarURL = "images/Toesmasher.png"
 
