@@ -1,0 +1,84 @@
+baseURL: ""
+languageCode: "en-us"
+title: "Toesmasher.se"
+theme: hugo-profile
+
+Paginate: 3
+# googleAnalytics: G-DWJJVE27WD
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  project: projects
+
+permalinks:
+  blog: :section/:year/:month/:title
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
+
+    - identifier: projects
+      name: Projects
+      title: Projects
+      url: /projects
+      weight: 2
+
+    - identifier: CV
+      name: CV
+      title: CV
+      url: /CV
+      weight: 3
+
+params:
+  title: "Toesmasher.se"
+  description: The various things I do
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "dark"
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: ""
+    title: "Niklas Berggren"
+    subtitle: ""
+    content: "Embedded systems, Linux & BSD, Cooking and Dungeoning them Dragons!"
+    image: /images/toesmasher.jpg
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Toesmasher
+        - icon: fab fa-linkedin-in
+          url: https://www.linkedin.com/in/niklas-berggren-a4339b19/
+        - icon: far fa-envelope
+          url: mailto:nicke@toesmasher.se
+      customIcons:
+
+  footer:
+    recentPosts: false
+
