@@ -1,23 +1,24 @@
 baseURL: ""
 languageCode: "en-us"
+languageName: "English"
 title: "Toesmasher.se"
-theme: hugo-profile
+theme: LoveIt
 
-Paginate: 3
+paginate: 12
 # googleAnalytics: G-DWJJVE27WD
 
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-taxonomies:
-  project: projects
+  highlight:
+    noClasses: false
 
 permalinks:
   blog: :section/:year/:month/:title
 
-Menus:
+author:
+  name: "Niklas Berggren"
+  email: nicke@toesmasher.se
+
+menus:
   main:
     - identifier: blog
       name: Blog
@@ -38,47 +39,59 @@ Menus:
       weight: 3
 
 params:
-  title: "Toesmasher.se"
-  description: The various things I do
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  defaultTheme: "dark"
 
-  theme:
-    disableThemeToggle: true
-    defaultTheme: "dark"
+  header:
+    title:
+      name: "Toesmasher.se"
+      description: "The various things I do"
+      logo: "/images/favicon_toesmasher.png"
+      typeit: false
 
-  # If you want to customize the menu, you can change it here
-  # navbar:
-  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-  #   brandName: "Profile" # Brand name for the brand | default is the title variable
-
-  #   menus:
-  #     disableAbout: true
-  #     disableExperience: true
-  #     disableEducation: true
-  #     disableProjects: true
-  #     disableAchievements: true
-  #     disableContact: true
-
-  # Hero
-  hero:
-    enable: true
-    intro: ""
-    title: "Niklas Berggren"
-    subtitle: ""
-    content: "Embedded systems, Linux & BSD, Cooking and Dungeoning them Dragons!"
-    image: /images/toesmasher.jpg
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/Toesmasher
-        - icon: fab fa-linkedin-in
-          url: https://www.linkedin.com/in/niklas-berggren-a4339b19/
-        - icon: far fa-envelope
-          url: mailto:nicke@toesmasher.se
-      customIcons:
+  search:
+    enable: false
 
   footer:
-    recentPosts: false
+    enable: true
+    hugo: false
+    copyright: true
+    since: 2022
+    author: true
+
+  section:
+    paginate: 20
+    dateFormat: "01-02"
+    rss: 20
+
+  list:
+    paginate: 20
+    dateFormat: "XX-YY"
+    rss: 20
+
+  home:
+    profile:
+      enable: true
+      avatarURL: "/images/toesmasher.jpg"
+      title: "Niklas Berggren"
+      subtitle: "Coding, Cooking, Tinkering and Playing"
+      social: true 
+
+  social:
+    GitHub: "Toesmasher"
+    LinkedIn: "niklas-berggren-a4339b19"
+    Instagram: "berggren.niklas"
+    Spotify: "Toesmasher"
+    Email: "nicke@toesmasher.se"
+
+  page:
+    toc:
+      enable: true
+      keepStatic: false
+      auto: false
+
+    code:
+      copy: true
+
+    comment:
+      enable: false
 

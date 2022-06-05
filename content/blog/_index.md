@@ -1,3 +1,3 @@
 ---
-title: "Blog posts"
+title: "Blog post"
 ---
