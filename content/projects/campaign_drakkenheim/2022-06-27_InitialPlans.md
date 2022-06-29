@@ -49,7 +49,7 @@ The details will be hammered out during session zero, which I expect to start so
 
 ## Planned changes
 
-I'd like to tweak a few rules, nothing big.
+I'd like to tweak a few rules and clarify a few things, nothing big.
 
 - Taking the help action when another character is doing a skill check will require that both
   characters are proficient in the skill. This serves two purposes;
@@ -65,9 +65,36 @@ I'd like to tweak a few rules, nothing big.
   for hidden passages near the western wall". Of course, the second one may not reveal the crossbow
   trap rigged to the door...
 
+- Identifying items can now be done over a short rest, this is a rule I sort of missed my first time
+  over. I'm interpreting this as characters basically playing around with items in order to figure
+  out what they do. This may mean that through this process they can *partially* identify items, but
+  may not have discovered all there is to it. Players will be notified if there's something else
+  to the item.
+
+- When it comes to spellcasting, it is to my knowledge *never* possible to expend two spell slots in
+  a single round to cast multiple spells, apparantly I sucked at communicating this in a good way.
+  What *is* allowed is to cast a bonus action spell, followed by a cantrip (which does not expend a
+  spell slot). This also allows a sorcerer with the quicken spell metamagic to turn an action spell
+  to a bonus action spell in order to fit a cantrip in there too. As far as I know, the only allowed
+  way to expend multiple spell slots during a single turn is by classes who can turn spell slots
+  into effects that aren't actually spells. A paladin can, for instance, cast a bonus action spell
+  and follow that up with attacks which may expend spell slots for smite.
+
+- Monster tactics. During the first campaign I intentionally ran monsters as rather stupid, most of
+  the time this fit in-universe as most monsters were described as just plain stupid, or too filled
+  with bloodlust to care. I'm going to change this now as everyone knows how to play, the opposition
+  will be smarter when it makes sense in-universe.
+
+## Things to be better at
+
+- Check concentration! If I had a nickle for every time I forgot to check concentration, for both
+  players and monsters, I'd have... a lot of currency with no local relevance, but still.
+
+- Itemization. Mistakes were made...
+
 ## TODO
 
 - Create compendiums in foundry for the Drakkenheim-specific NPCs, monsters and spells.
 - Create compendium in foundry for the starting scenes of the campaigns. Not necessarily full
   setups, but import the maps and see if additional maps are needed.
-- Prep for the introduction on June 7 or 8.
+- Prep for the introduction on June 7.
