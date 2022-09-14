@@ -14,8 +14,8 @@ to go as soon as possible. Session zero should kick of during the first week of 
 ## TODO for session zero
 
 - Introduce all the characters. Currently it looks like the party will be composed of a barbarian,
-  bard, monk, ranger and sorcerer. Ensure there's no inherently unresolvable conflict among them
-  severe enough to prevent them from being able to work as a group.
+  bard, monk, and sorcerer. Ensure there's no inherently unresolvable conflict among them severe
+  enough to prevent them from being able to work as a group.
 
 - Establish links between the characters. While everyone doesn't need to know everyone, it would
   help if some of them know others from before.
@@ -37,8 +37,8 @@ to go as soon as possible. Session zero should kick of during the first week of 
     - If tides of chaos has been expended, a surge occurs on a 1 or 2. Recharges tides if a surge
       occurs.
     - You can always intentionally cause a surge, but not to recharge tides of chaos.
-  - Being limited to either stowing and drawing a weapon was rather limiting. Do we want to change
-    this?
+  - Monks are not in a great place in the game. Maybe update the damage die for unarmed attacks by
+    one? Or maybe provide a few extra ki points baseline?
 
 - Establish things that will be run differently from the previous campaign
   - More group skill checks!
