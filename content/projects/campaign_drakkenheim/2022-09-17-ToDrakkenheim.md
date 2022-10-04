@@ -44,8 +44,22 @@ The group made several contacts in the village.
 
 - Aldor the Immense was of course delighted at the sight of new customers. Raz/Ben in particular
   liked him.
-- Solaria made contact with the Amethyst Academy via River at the Red Lion Hotel. 
+- Solaria made contact with the Amethyst Academy via River at the Red Lion Hotel, she encouraged the
+  group to show that they can survive in the city.
+- Zugorm struck out alone and made friends with Blackjack Mel, who agreed to keep his eyes out for
+  other orcs for him.
+- The delerium traders in town informed the group about the delerium trade, and how several groups
+  go in to town to find the crystals in order to sell them.
 
 ## Prospecting
+
+The group decided to head into town to find delerium, both as a part of showing River that the group
+could survive, as well as to make some money. After a few hours poking around in the south-eastern
+area of the city they found something, unfortunately that something was guarded by a group of Haze
+Husks. The group dispatched the husks, but it came at the cost Shallyshaska gaining a contamination
+level, unfortunately he didn't mutate which would've been fun.
+
+At the end of the session the group was ambushed by another group of adventurers as they were
+gathering the delerium they found.
 
 ## Notes for the future
