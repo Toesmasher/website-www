@@ -1,20 +1,27 @@
 ---
-title: "CV"
-date: 2022-04-05T22:02:14+02:00
-draft: false
-type: longform
+title: CV
+author: 
+date: 2022-04-05
+type: posts
+
+toc: true
+share:
+  enable: false
+hiddenFromHomePage: true
 ---
 
 ## 1. The Basics
 
 ![Niklas Berggren](nberggren-cropped.jpg)
 
+Embedded Systems Developer, based in Gothenburg, Sweden
+
 ## 2. Work
 
-> ### Lumenradio AB
+> ### LumenRadio AB
 > Gothenburg, Sweden, March 2019 - Now
 >
-> Embedded systems developer for the Airglow project, later senior developer for the W-Xbus project,
+> Embedded systems developer in the Airglow project, later senior developer in the W-Xbus project,
 > leading a team of three. Keywords include ARM, IPv6, Testing, Wireless mesh.
 
 > ### Vinnter AB
@@ -23,7 +30,7 @@ type: longform
 > Embedded systems developer in a consultant role, spending a majority of the time as an embedded 
 > linux specialist at Emerson in Mölnlycke, but also in a few internal projects. The work at Emerson
 > has involved plenty of coding, design and some linux kernel development while the internal projects
-> involved some electronics design as well.
+> involved some electronics design.
 
 > ### Layer 10 Collective AB
 > Gothenburg, Sweden, Dec. 2011 - Sept 2015
@@ -57,30 +64,28 @@ type: longform
 > Automotive, telecom, wireless
 
 > ### Programming and scripting languages
-> Bash, C, C++, CAPL, LUA, Matlab, Python.
+> Bash/Shell, C, C++, Lua, Matlab, Python, Rust.
 
 > ### Technologies and tools
 > Altium Designer, ARM, ASN.1, AVR, CAN, Eagle, Ethernet, GNU toolchain, Git, Google Protocol Buffers,
-> IPv4, IPv6, ISO14229, Makefile, OrCAD, PIC, SVN, ZMQ
+> IPv4, IPv6, ISO14229, LLVM, Makefile, OrCAD, PIC, SVN, ZMQ
 
 > ### Computer skills
-> - Excellent knowledge of Linux and FreeBSD, these have been the primary systems for ca 20 years.
-> - Good to excellent knowledge of MacOS.
-> - Good knowledge of Microsoft Windows
-> - Miniscule knowledge of Excel/Sheets. I just can't. Some people can do great stuff, I just get enraged.
+> - Expert knowledge of Linux and FreeBSD, these have been the primary systems for ca 25 years.
+> - Good to expert knowledge of MacOS.
+> - Some knowledge of Microsoft Windows
 
 ## 5. Other
 
 > ### Dungeon Master
 > DM for Dungeons and Dragons, leading brave and/or suicidal parties through adventures and quests
-> for glory! Lots of planning, storytelling and fun times for all!
+> for glory! Planning, storytelling and just generally fun times for all!
 
 > ### Coffee fanatic
 > Brewing fanatic, aiming to open everyones' eyes to the glory that is kenyan SL28/SL34 beans brewed
 > with a Chemex!
 
-
 > ### Linux and FreeBSD enthusiast
-> Exclusive user of Linux and BSD-based (FreeBSD, OpenBSD, MacOS) systems since 2005. This includes
-> more time setting up custom configurations than is probably wise to admit. This website is served
-> from my entertainment cabinet.
+> Exclusive user of Linux and BSD-based (FreeBSD, OpenBSD, MacOS) systems since ca 2002. This
+> includes more time setting up custom configurations than is probably wise to admit. This website
+> is served from my entertainment cabinet.

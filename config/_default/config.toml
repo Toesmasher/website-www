@@ -1,0 +1,89 @@
+baseURL = ""
+languageCode = "en-us"
+languageName = "English"
+title = "Toesmasher.se"
+theme = "LoveIt"
+paginate = 12
+
+[markup.highlight]
+noClasses = false
+
+[permalinks]
+cooking = ":section/:year/:month/:title"
+projects = ":section/:year/:month/:title"
+
+[author]
+name = "Niklas Berggren"
+email = "nicke@toesmasher.se"
+
+[[menus.main]]
+identifier = "cooking"
+name = "Cooking"
+url = "/cooking"
+weight = 1
+
+[[menus.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
+weight = 2
+
+[[menus.main]]
+identifier = "CV"
+name = "CV"
+url = "/CV"
+weight = 3
+
+[params]
+defaultTheme = "dark"
+
+[params.header.title]
+name = "Toesmasher.se"
+description = "The various things I do"
+logo = "/images/favicon_toesmasher.png"
+typeit = false
+
+[params.search]
+enable = false
+
+[params.footer]
+enable = true
+hugo = false
+copyright = true
+since = 2_022
+author = true
+
+[params.section]
+paginate = 20
+dateFormat = "01-02"
+rss = 20
+
+[params.list]
+paginate = 20
+dateFormat = "XX-YY"
+rss = 20
+
+[params.home.profile]
+enable = true
+avatarURL = "/images/toesmasher.jpg"
+title = "Niklas Berggren"
+subtitle = "Coding, Cooking, Tinkering and Playing"
+social = true
+
+[params.social]
+GitHub = "Toesmasher"
+LinkedIn = "niklas-berggren-a4339b19"
+Instagram = "berggren.niklas"
+Spotify = "6t1hwpqc5nxsbt8kk0tkuf5nl"
+Email = "nicke@toesmasher.se"
+
+[params.page.toc]
+enable = true
+keepStatic = false
+auto = false
+
+[params.page.code]
+copy = true
+
+[params.page.comment]
+enable = false
