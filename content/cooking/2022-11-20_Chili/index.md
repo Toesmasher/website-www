@@ -1,5 +1,5 @@
 ---
-title: Chili
+title: Chuck Chili
 subtitle:
 date: 2022-11-20
 tags: [ Meat, Spicy, Keto ]
@@ -14,7 +14,7 @@ share:
 
 A simple chili, tasty, perfect for the season, and keto-friendly.
 
-# Ingredients
+## Ingredients
 
 - Mixed chilies, dried or fresh, whatever suites your tastes. Ancho chilies are mandatory, others
   are a bonus. Chipotle highly recommended.
@@ -25,7 +25,7 @@ A simple chili, tasty, perfect for the season, and keto-friendly.
 - At least one big onion.
 - Garlic.
 
-# Cooking
+## Cooking
 
 - Cut the meat into bite-size chunks, remove silver skin.
 - Tear up the dried chilies, toast for a few minutes in a pan.
@@ -41,7 +41,7 @@ A simple chili, tasty, perfect for the season, and keto-friendly.
   paste.
 - Let simmer for a few hours. In the last case about three, stir every now and then.
 
-# Results
+## Results
 
 Tasty! Though I do think it should've been on the stove for an hour or so more to make the meat
 more tender. Since I'm currently on keto, more vegetables could probably be added too, such as
@@ -49,7 +49,7 @@ mushrooms, peppers and broccoli.
 
 If not on keto, toss in kidney beans!
 
-# Pictures
+## Pictures
 ![Ingredient](ingredients.jpg)
 ![Ingredients prepped](ingredients_prepped.jpg)
 ![Initial state of the pot](cooking_start.jpg)
