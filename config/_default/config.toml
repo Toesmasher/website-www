@@ -38,7 +38,7 @@ weight = 3
 [[menus.main]]
 identifier = "CV"
 name = "CV"
-url = "/CV/"
+url = "/cv/"
 weight = 4
 
 [params]
