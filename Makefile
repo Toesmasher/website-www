@@ -15,11 +15,6 @@ $(TARBALL): $(TARGET)
 dev:
 	@hugo server
 
-.PHONY: publish
-publish: $(TARBALL)
-	@scp $(TARBALL) nicke@toesmasher.se:~/www/
-	@ssh nicke@toesmasher.se ~/www/publisher.sh
-
 .PHONY: clean
 clean:
 	rm -fr $(TARBALL) $(TARGET) resources

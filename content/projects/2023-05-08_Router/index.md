@@ -2,7 +2,7 @@
 title: Renovating the home network
 subtitle: Building a better router
 date: 2023-05-09
-tags: [ IT, IP, Security, Networking ]
+tags: [ Networking, OpenBSD, Security ]
 
 type: posts
 toc: true
