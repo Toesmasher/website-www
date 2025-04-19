@@ -29,7 +29,7 @@ pygmentsStyle = "catppuccin-macchiato"
     ordered = false
 
 [params]
-  avatarURL = "images/toesmasher.jpg"
+  avatarURL = "/images/toesmasher.jpg"
   avatarAltText = "Drawn by an artistically inclined friend"
   avatarSize = "size-m"
 
